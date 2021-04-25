@@ -16,15 +16,15 @@
 </head>
 
 <body>
-    <header class="header header-home grid-main">
+    <header class="header grid-main">
         <section class="header-content">
             <a class="logo-link" href="index.html">
                 <img src="imgs/logo.png" alt="" class="logo">
             </a>
             <nav class="nav">
-                <a href="index.html" class="nav-link current-page">home</a>
+                <a href="index.html" class="nav-link">home</a>
                 <a href="about.html" class="nav-link">about us</a>
-                <a href="contact.html" class="nav-link">contact</a>
+                <a href="contact.html" class="nav-link current-page">contact</a>
             </nav>
             <button id="ham" class="ham-btn" aria-label="navgation open/close">
                 <span class="ham-1"></span>
@@ -33,47 +33,38 @@
             </button>
         </section>
     </header>
-    <main>
-        <section class="hero grid-main">
-            <h1 class="hero-title">
-                The only marketing agency on <strong class="accent-text"> a mission from God</strong>, fully dedicated
-                to increase your web
-                traffic.
-            </h1>
-            <p class="hero-subtitle">
-                We’re two brothers from Chicago that are trying to pay back our debt. We can help you with
-                <strong> SEO, SEM, content marketing </strong>
-                and whatever else.
+    <main class="main grid-main">
+
+        <h1 class="page-title">Contact. </h1>
+        <p class="subtitle">
+            Let us know how we can help you need and we’ll drive over to your place in our Bluesmobile the
+            following day to discuss the deal.
+        </p>
+
+        <img class="main-image" src="imgs/contact.jpg" alt="a bunch of mailboxes">
+
+        <div class="secondary-text">
+            <h2 class="section-title">Getting in touch with us </h2>
+            <p>
+                You can either use the form or send us an email. I'll get back in touch with you as soon as possible!
             </p>
-            <a class="btn hero-btn" href="#">contact us</a>
-        </section>
-        <section class="info grid-main">
-            <div class="col">
-                <h2 class="section-title section-title-center">about us</h2>
-                <p>
-                    We grew up in downtown Chicago, and we used to play in a band.
-                    <strong> Jake loves fried chicken </strong>, and
-                    <strong>Elwood loves dry white toast.</strong>
-                </p>
-            </div>
-            <div class="col">
-                <h2 class="section-title section-title-center">our skills</h2>
-                <p>
-                    Our skills Elwood is an expert in
-                    <strong>SEO, SEM, and driving from the police.</strong> Jake is
-                    <strong>our social media specialist,</strong>
-                    and he has an amazing voice.
-                </p>
-            </div>
-            <div class="col">
-                <h2 class="section-title section-title-center">Get in Touch</h2>
-                <p>
-                    Get in touch Send us an email with some info about what help you need and
-                    <strong>we’ll drive over to your</strong>
-                    place in our Bluesmobile the following day to discuss the deal.
-                </p>
-            </div>
-        </section>
+        </div>
+
+        <div class="main-text">
+            <form class="contact-form" action="#" method="POST">
+                <label class="label-name" for="fname">First Name</label>
+                <input class="input-name" id="fname" type="text">
+
+                <label class="label-name" for="lname">Last Name</label>
+                <input class="input-name" id="lname" type="text">
+
+                <label class="label-msg" for="message">Message</label>
+                <textarea class="input-msg" id="message"></textarea>
+
+                <button class="btn btn-primary btn-form">send</button>
+            </form>
+        </div>
+
     </main>
     <footer class="footer grid-main">
         <div class="footer-main">
