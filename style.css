@@ -59,9 +59,9 @@ img {
     border         : 2px solid transparent;
     cursor         : pointer;
     transition     :
-        color var(--trans-duration) var(--trans-timingFunc) var(--trans-duration),
-        background-color var(--trans-duration) var(--trans-timingFunc) var(--trans-duration),
-        border-color var(--trans-duration) var(--trans-timingFunc) var(--trans-duration);
+        color var(--trans-duration) var(--trans-timingFunc) var(--trans-delay),
+        background-color var(--trans-duration) var(--trans-timingFunc) var(--trans-delay),
+        border-color var(--trans-duration) var(--trans-timingFunc) var(--trans-delay);
 
 }
 
@@ -112,7 +112,7 @@ img {
     flex-direction  : column;
     align-items     : center;
     transition      :
-        transform var(--trans-duration) var(--trans-timingFunc) var(--trans-duration);
+        transform var(--trans-duration) var(--trans-timingFunc) var(--trans-delay);
 }
 
 .nav>* {
@@ -200,8 +200,8 @@ hamburger section
     transform-origin: right;
     transform       : rotate(0);
     transition      :
-        opacity var(--trans-duration) var(--trans-timingFunc) var(--trans-duration),
-        transform var(--trans-duration) var(--trans-timingFunc) var(--trans-duration);
+        opacity var(--trans-duration) var(--trans-timingFunc) var(--trans-delay),
+        transform var(--trans-duration) var(--trans-timingFunc) var(--trans-delay);
 }
 
 .ham-1 {
@@ -473,7 +473,8 @@ info section
     }
 
     .secondary-text {
-        order: 2;
+        margin: 1.5em 0;
+        order : 2;
     }
 
     .main-text {
