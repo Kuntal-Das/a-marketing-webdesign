@@ -507,6 +507,7 @@ info section
 
 .input-name,
 .input-msg {
+    resize : none;
     padding: 0.45em;
     font   : inherit
 }
